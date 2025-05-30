@@ -1,6 +1,6 @@
 ## Stage 1: 프로젝트 설정
 - Firebase 프로젝트 생성 및 google-services.json 추가.
-- - Remote Config 설정 및 auth_key 값 확인.
+- Remote Config 설정 및 auth_key 값 확인.
 
 CampusPatrolRobotApp - 파일 역할 요약
 
