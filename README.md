@@ -9,7 +9,7 @@
 - Google Cloud API: Cloud Functions, Cloud Messaging, Firestore, Maps SDK for Android 활성화.
 - 서비스 계정 생성: 이름(campus-patrol-service), 역할(Cloud Functions 관리자, Cloud Datastore 사용자).
 
-##_CampusPatrolRobotApp - 파일 역할 요약
+## CampusPatrolRobotApp - 파일 역할 요약
 - MainActivity.kt: 앱의 "두뇌" 역할 파일, 앱이 할 일을 적는 곳, 인터넷에서 "안전 확인 코드" 가져오기 작업, 새로운 기능 추가 시 수정(예: 버튼 추가)
 - build.gradle (앱 수준): 앱이 필요로 하는 도구 목록 파일, Firebase 사용을 위해 도구 추가, 새로운 도구 필요 시 수정
 - build.gradle (프로젝트 수준): 앱 제작 환경 설정 파일, 기본 환경 설정 작업, 작업 환경 변경 시 수정
