@@ -13,7 +13,7 @@
 - MainActivity.kt에 초기 화면 구성 (Jetpack Compose 사용).
 - 화면 추가를 위해 ChatActivity1, ChatActivity2, MapActivity 를 작성 하고 MainActivity.kt와 같은 공간에 배치.
 - 작성한 파일들은 AndroidManifest.xml 파일에서 선언 해준다.
-- <activity>는 여는 태그, </activity>는 닫는 태그이며, 내용이 없으면 <activity />처럼 바로 닫는 형태로 작성 가능.
+- \<activity\>는 여는 태그, \</activity\>는 닫는 태그이며, 내용이 없으면 \<activity /\>처럼 바로 닫는 형태로 작성 가능.
 - pixel6로 애뮬레이터 테스트 완료.
 
 ## CampusPatrolRobotApp - 파일 역할 요약
