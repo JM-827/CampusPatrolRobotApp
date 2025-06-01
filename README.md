@@ -9,6 +9,13 @@
 - Google Cloud API: Cloud Functions, Cloud Messaging, Firestore, Maps SDK for Android 활성화.
 - 서비스 계정 생성: 이름(campus-patrol-service), 역할(Cloud Functions 관리자, Cloud Datastore 사용자).
 
+## Stage 3: 초기 UI 구성
+- MainActivity.kt에 초기 화면 구성 (Jetpack Compose 사용).
+- 화면 추가를 위해 ChatActivity1, ChatActivity2, MapActivity 를 작성 하고 MainActivity.kt와 같은 공간에 배치.
+- 작성한 파일들은 AndroidManifest.xml 파일에서 선언 해준다.
+- <activity>는 여는 태그, </activity>는 닫는 태그이며, 내용이 없으면 <activity />처럼 바로 닫는 형태로 작성 가능.
+- pixel6로 애뮬레이터 테스트 완료.
+
 ## CampusPatrolRobotApp - 파일 역할 요약
 - MainActivity.kt: 앱의 "두뇌" 역할 파일, 앱이 할 일을 적는 곳, 인터넷에서 "안전 확인 코드" 가져오기 작업, 새로운 기능 추가 시 수정(예: 버튼 추가)
 - build.gradle (앱 수준): 앱이 필요로 하는 도구 목록 파일, Firebase 사용을 위해 도구 추가, 새로운 도구 필요 시 수정
@@ -17,3 +24,4 @@
 - XML 파일(로우 레벨): 앱 화면 디자인 파일, 앱 아이콘이나 배경 파일 확인, 디자인 변경 시 수정(예: 버튼 추가)
 - XML 파일(하이 레벨): 현재 프로젝트에서는 Jetpack Compose로 UI를 만들기 때문에 XML은 앱 구성 요소 선언(Manifest.xml << 선언파일)
 - settings.gradle.kts: 앱 프로젝트 구조 정리 파일, 구조 설정으로 앱 작동 지원, 구조 변경 시 수정(예: 새로운 기능 추가)
+
