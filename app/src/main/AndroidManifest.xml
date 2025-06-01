@@ -25,5 +25,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ChatActivity1" />
+        <activity android:name=".`ChatActivity2.kt`" />
+        <activity android:name=".MapActivity" />
     </application>
 </manifest>

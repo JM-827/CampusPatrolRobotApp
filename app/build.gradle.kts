@@ -1,3 +1,4 @@
+//build.gradle (앱 수준): 앱이 필요로 하는 도구 목록 파일, Firebase 사용을 위해 도구 추가, 새로운 도구 필요 시 수정
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
