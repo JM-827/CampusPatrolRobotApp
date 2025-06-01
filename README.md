@@ -15,6 +15,6 @@
 - build.gradle (프로젝트 수준): 앱 제작 환경 설정 파일, 기본 환경 설정 작업, 작업 환경 변경 시 수정
 - libs.versions.toml: 도구 버전 정리 파일, 버전 정리로 문제 방지, 도구 버전 변경이나 추가 시 수정
 - XML 파일: 앱 화면 디자인 파일, 앱 아이콘이나 배경 파일 확인, 디자인 변경 시 수정(예: 버튼 추가)
-   -XML은 Jetpack Compose를 사용하지 않을 때는 로우레벨로 UI 디자인을 작성하는 데 사용됐지만,
-   -현재 프로젝트에서는 Jetpack Compose로 UI를 만들기 때문에 XML은 앱 구성 요소 선언(AndroidManifest.xml)에 주로 쓰이고 있어요.
+    XML은 Jetpack Compose를 사용하지 않을 때는 로우레벨로 UI 디자인을 작성하는 데 사용됐지만,
+    현재 프로젝트에서는 Jetpack Compose로 UI를 만들기 때문에 XML은 앱 구성 요소 선언(AndroidManifest.xml)에 주로 쓰이고 있음.
 - settings.gradle.kts: 앱 프로젝트 구조 정리 파일, 구조 설정으로 앱 작동 지원, 구조 변경 시 수정(예: 새로운 기능 추가)
