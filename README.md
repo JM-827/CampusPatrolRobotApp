@@ -23,11 +23,13 @@
 - MapActivity: 실시간 로봇 위치 확인을 위한 페이지 (다음 단계에서 세부 구현)
 
 ## CampusPatrolRobotApp - 파일 역할 요약
-- MainActivity.kt: 앱의 "두뇌" 역할 파일, 앱이 할 일을 적는 곳, 인터넷에서 "안전 확인 코드" 가져오기 작업, 새로운 기능 추가 시 수정(예: 버튼 추가)
+- MainActivity.kt: 앱의 "두뇌" 역할 파일, 앱이 할 일을 적는 곳, 인터넷에서 "안전 확인 코드" 가져오기 작업, 다크 테마와 카드 스타일 네비게이션 버튼으로 ChatActivity1, ChatActivity2, MapActivity로 이동 가능, 새로운 기능 추가 시 수정(예: 버튼 추가)
+- ChatActivity1.kt: 명령어 채팅 UI 구현 파일, "귀환", "잠시 대기", "다시 작동시작" 버튼으로 로봇 명령 전송, 채팅 로그를 SharedPreferences로 영구 저장, "로그 지우기" 버튼과 다이얼로그로 로그 관리, LLM 연결 예정
+- ChatActivity2.kt: 이벤트 알림 UI 구현 파일, 더미 데이터로 이벤트 표시, Swipe Up 기능 준비(Stage 9에서 세부 구현), 이벤트 관련 UI 확장 시 수정
+- MapActivity.kt: 실시간 로봇 위치 확인 UI 준비 파일, 현재는 기본 텍스트 표시, Stage 5에서 지도 기능 구현 예정, 지도 관련 기능 추가 시 수정
 - build.gradle (앱 수준): 앱이 필요로 하는 도구 목록 파일, Firebase 사용을 위해 도구 추가, 새로운 도구 필요 시 수정
 - build.gradle (프로젝트 수준): 앱 제작 환경 설정 파일, 기본 환경 설정 작업, 작업 환경 변경 시 수정
 - libs.versions.toml: 도구 버전 정리 파일, 버전 정리로 문제 방지, 도구 버전 변경이나 추가 시 수정
-- XML 파일(로우 레벨): 앱 화면 디자인 파일, 앱 아이콘이나 배경 파일 확인, 디자인 변경 시 수정(예: 버튼 추가)
-- XML 파일(하이 레벨): 현재 프로젝트에서는 Jetpack Compose로 UI를 만들기 때문에 XML은 앱 구성 요소 선언(Manifest.xml << 선언파일)
+- XML 파일(로우 레벨): 앱 화면 디자인 파일, 앱 아이콘이나 배경 파일 확인, 현재는 Jetpack Compose 사용으로 제한적 활용, 디자인 변경 시 수정(예: 버튼 추가)
+- AndroidManifest.xml(하이 레벨 XML): 앱 구성 요소 선언 파일, ChatActivity1, ChatActivity2, MapActivity 선언, 새로운 Activity 추가 시 수정
 - settings.gradle.kts: 앱 프로젝트 구조 정리 파일, 구조 설정으로 앱 작동 지원, 구조 변경 시 수정(예: 새로운 기능 추가)
-
