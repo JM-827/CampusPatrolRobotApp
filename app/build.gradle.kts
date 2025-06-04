@@ -63,5 +63,6 @@ dependencies {
     implementation(libs.firebase.messaging.ktx)
     implementation(libs.google.play.services.maps)
     implementation(libs.java.websocket)
-    implementation("com.google.firebase:firebase-config-ktx")
+    implementation(libs.firebase.config.ktx)
+    implementation(libs.androidx.material.icons.extended)
 }

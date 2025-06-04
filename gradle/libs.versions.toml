@@ -12,9 +12,11 @@ firebaseBom = "33.1.0"
 googleServices = "4.4.2"
 javaWebSocket = "1.5.6"
 maps = "19.0.0"
+androidx-material-icons-extended = "1.6.8"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+firebase-config-ktx = { module = "com.google.firebase:firebase-config-ktx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -34,6 +36,7 @@ firebase-functions-ktx = { group = "com.google.firebase", name = "firebase-funct
 firebase-messaging-ktx = { group = "com.google.firebase", name = "firebase-messaging-ktx" }
 google-play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "maps" }
 java-websocket = { group = "org.java-websocket", name = "Java-WebSocket", version.ref = "javaWebSocket" }
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "androidx-material-icons-extended" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
