@@ -22,6 +22,11 @@
 - ChatActivity2: 더미 데이터로 이벤트 알림 UI 구현, Swipe Up 기능 준비 (다음 단계에서 세부 구현)
 - MapActivity: 실시간 로봇 위치 확인을 위한 페이지 (다음 단계에서 세부 구현)
 
+## Stage 5: 지도 정보 화면 UI 보강 및 테스트
+- MapActivity.kt: Google Maps SDK로 실시간 위치 표시, 초기 마커 추가.
+- ChatActivity2.kt: LazyColumn UI 사용으로 Swipe Up UX충족, 이벤트 로그 초기화 다이얼로그 구현.
+- 가상 머신 테스트 완료
+
 ## CampusPatrolRobotApp - 파일 역할 요약
 - MainActivity.kt: 앱의 "두뇌" 역할 파일, 앱이 할 일을 적는 곳, 인터넷에서 "안전 확인 코드" 가져오기 작업, 다크 테마와 카드 스타일 네비게이션 버튼으로 ChatActivity1, ChatActivity2, MapActivity로 이동 가능, 새로운 기능 추가 시 수정(예: 버튼 추가)
 - ChatActivity1.kt: 명령어 채팅 UI 구현 파일, "귀환", "잠시 대기", "다시 작동시작" 버튼으로 로봇 명령 전송, 채팅 로그를 SharedPreferences로 영구 저장, "로그 지우기" 버튼과 다이얼로그로 로그 관리, LLM 연결 예정
